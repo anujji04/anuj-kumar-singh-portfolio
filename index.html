@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Anuj Kumar Singh — B.Tech Computer Science and Engineering student, programmer and project builder." />
+  <title>Anuj Kumar Singh | CSE Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Reference-inspired loading screen -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="loader-shell">
+      <div class="loader-top"><span>[ SYSTEM BOOT ]</span><span>AKS-OS v2.0</span></div>
+      <div class="loader-lines" id="loader-lines"></div>
+      <div class="loader-progress"><span id="loader-bar"></span></div>
+      <div class="loader-percent"><span>ACCESSING PORTFOLIO</span><b id="loader-percent">0%</b></div>
+    </div>
+  </div>
+
+  <div class="noise"></div>
+  <div class="grid-bg"></div>
+  <div class="cursor-glow" id="cursor-glow"></div>
+
+  <header class="nav" id="site-nav">
+    <a class="brand" href="#home" aria-label="Anuj Kumar Singh home">AKS<span>.</span></a>
+    <nav id="main-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certs">Certs</a>
+      <a href="#terminal">Terminal</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-btn" href="Anuj-Kumar-Singh-CV.pdf" target="_blank" rel="noopener">Resume <span>↗</span></a>
+    <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <svg class="particle-field" viewBox="0 0 1200 760" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="particleFade" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#00ff88" stop-opacity=".7" />
+            <stop offset="1" stop-color="#00ff88" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <g class="particle-lines">
+          <path d="M60 160L220 100L350 190L500 120L660 210L800 120L960 180L1120 80" />
+          <path d="M110 390L260 300L410 360L570 290L720 390L890 300L1060 360" />
+          <path d="M210 650L360 560L520 630L690 530L860 620L1010 540" />
+          <path d="M350 190L410 360L520 630" />
+          <path d="M660 210L720 390L690 530" />
+          <path d="M960 180L890 300L860 620" />
+        </g>
+        <g class="particle-dots" fill="url(#particleFade)">
+          <circle cx="60" cy="160" r="3"/><circle cx="220" cy="100" r="4"/><circle cx="350" cy="190" r="3"/>
+          <circle cx="500" cy="120" r="4"/><circle cx="660" cy="210" r="3"/><circle cx="800" cy="120" r="4"/>
+          <circle cx="960" cy="180" r="3"/><circle cx="1120" cy="80" r="4"/><circle cx="110" cy="390" r="3"/>
+          <circle cx="260" cy="300" r="4"/><circle cx="410" cy="360" r="3"/><circle cx="570" cy="290" r="4"/>
+          <circle cx="720" cy="390" r="3"/><circle cx="890" cy="300" r="4"/><circle cx="1060" cy="360" r="3"/>
+          <circle cx="210" cy="650" r="3"/><circle cx="360" cy="560" r="4"/><circle cx="520" cy="630" r="3"/>
+          <circle cx="690" cy="530" r="4"/><circle cx="860" cy="620" r="3"/><circle cx="1010" cy="540" r="4"/>
+        </g>
+      </svg>
+
+      <div class="boot boot-hero">
+        <span>[ SYSTEM BOOT ] AKS-OS v2.0</span>
+        <span>$ Initializing Portfolio... <b>OK</b></span>
+        <span>$ Loading Programming Modules... <b>OK</b></span>
+        <span>$ Establishing Secure Connection... <b>OK</b></span>
+        <span>$ Scanning Project Archive... <b>OK</b></span>
+        <span>$ ▶ ACCESS GRANTED</span>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <div class="status"><i></i> SYSTEM ONLINE · CSE STUDENT</div>
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Anuj Kumar<br><span>Singh</span></h1>
+          <div class="type-line"><span id="typed"></span><span class="cursor">▌</span></div>
+          <p class="hero-text">B.Tech Computer Science & Engineering student at Lovely Professional University. I build practical software projects, strengthen programming fundamentals, and continuously explore new technologies.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects <span>→</span></a>
+            <a class="btn ghost" href="Anuj-Kumar-Singh-CV.pdf" target="_blank" rel="noopener">Download Resume <span>↗</span></a>
+          </div>
+          <div class="hero-tags"><span>C / C++</span><span>Python</span><span>Java</span><span>HTML / CSS</span><span>Git / GitHub</span></div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="scanline"></div>
+          <div class="photo-frame">
+            <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+            <div class="photo-meta">ID: AKS-2026 <span>● ONLINE</span></div>
+            <img src="assets/anuj-photo.jpeg" alt="Anuj Kumar Singh" />
+            <div class="photo-label">ANUJ_KUMAR_SINGH // CSE</div>
+          </div>
+          <div class="floating-card card-a"><span>PRIMARY</span><strong>Python</strong><small>Programming</small></div>
+          <div class="floating-card card-b"><span>BUILD STATUS</span><strong>ACTIVE</strong><small>Learning & Building</small></div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#projects"><span>SCROLL</span><i></i></a>
+    </section>
+
+    <section id="featured" class="section featured-section">
+      <div class="section-kicker">⭐ FEATURED PROJECT</div>
+      <article class="featured-project glass reveal">
+        <div class="featured-art">
+          <div class="project-window large-window">
+            <div class="window-bar"><span></span><span></span><span></span><b>student_management.c</b></div>
+            <pre><span class="code-green">#include</span> &lt;stdio.h&gt;
+
+<span class="code-green">STUDENT MANAGEMENT SYSTEM</span>
+
+[1] Add Student
+[2] Update Student
+[3] Delete Student
+[4] Search Student
+[5] View Records
+
+&gt; File Handling Enabled
+&gt; CRUD Operations Ready</pre>
+          </div>
+        </div>
+        <div class="featured-copy">
+          <div class="project-status">✓ COMPLETED <span>JUN '26</span></div>
+          <div class="project-labels"><span>C</span><span>FILE HANDLING</span><span>CRUD</span></div>
+          <h2>Student Management<br><span>System</span></h2>
+          <p>Console-based C application with CRUD operations and file handling for data persistence. Built to improve record organization and retrieval while applying fundamental programming concepts.</p>
+          <div class="featured-actions"><a class="text-link" href="https://github.com/anujji04" target="_blank" rel="noopener">GitHub Profile ↗</a><a class="text-link muted-link" href="#projects">Explore projects ↓</a></div>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-kicker">// 01</div>
+      <h2>About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="lead">I'm Anuj Kumar Singh — a Computer Science & Engineering student building a strong foundation in programming and software development.</p>
+          <p>My projects include C programming, Python GUI development and responsive web development. I enjoy converting concepts into practical applications and improving through hands-on work.</p>
+          <p>My engineering approach: learn the fundamentals, build, test, improve, and keep exploring.</p>
+          <div class="pill-row"><span>Problem Solving</span><span>Team Collaboration & Leadership</span><span>Quick Learner</span><span>Time Management</span></div>
+        </div>
+        <div class="terminal-mini reveal delay-1">
+          <div class="term-head"><div class="lights"><i></i><i></i><i></i></div><b>about_anuj.sh</b></div>
+          <pre><code>anuj@portfolio:~$ whoami
+Anuj Kumar Singh
+
+anuj@portfolio:~$ education
+B.Tech CSE — LPU
+2025 — 2029 · Second Year
+
+anuj@portfolio:~$ location
+Phagwara, Punjab, India
+
+anuj@portfolio:~$ mission
+Build. Learn. Improve.</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-kicker">// 02</div>
+      <h2>Skills & <span>Arsenal</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card glass reveal"><div class="skill-icon">01</div><h3>Programming</h3><div class="skill"><span>C</span><b>Intermediate</b><i style="--w:72%"></i></div><div class="skill"><span>C++</span><b>Intermediate</b><i style="--w:70%"></i></div><div class="skill"><span>Python</span><b>Intermediate</b><i style="--w:74%"></i></div><div class="skill"><span>Java</span><b>Foundation</b><i style="--w:52%"></i></div></article>
+        <article class="skill-card glass reveal delay-1"><div class="skill-icon">02</div><h3>Web Development</h3><div class="skill"><span>HTML</span><b>Good</b><i style="--w:82%"></i></div><div class="skill"><span>CSS</span><b>Good</b><i style="--w:78%"></i></div><div class="skill"><span>JavaScript</span><b>Foundation</b><i style="--w:58%"></i></div></article>
+        <article class="skill-card glass reveal delay-2"><div class="skill-icon">03</div><h3>Tools & Platforms</h3><div class="tool-list"><span>VS Code</span><span>Git</span><span>GitHub</span><span>MS Office</span><span>MySQL</span></div></article>
+        <article class="skill-card glass reveal delay-3"><div class="skill-icon">04</div><h3>Professional</h3><div class="tool-list"><span>Team Collaboration</span><span>Leadership</span><span>Problem Solving</span><span>Quick Learner</span><span>Time Management</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-kicker">// 03</div>
+      <h2>Selected <span>Projects</span></h2>
+      <div class="filters" role="tablist" aria-label="Project filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="programming">Programming</button><button class="filter" data-filter="python">Python</button><button class="filter" data-filter="web">Web</button></div>
+      <div class="project-grid">
+        <article class="project-card glass reveal" data-category="programming">
+          <div class="project-top"><span class="project-status">✓ COMPLETED</span><span>01</span></div>
+          <div class="project-art"><div class="project-window"><div class="window-bar"><span></span><span></span><span></span><b>student_management.c</b></div><pre>STUDENT MANAGEMENT SYSTEM
+
+[1] Add Student
+[2] Update Student
+[3] Delete Student
+[4] Search Student
+[5] View Records
+
+&gt; File Handling Enabled</pre></div></div>
+          <div class="project-date">JUN '26</div><h3>Student Management System</h3><p>Console-based C application with CRUD operations and file handling for data persistence and structured record management.</p><div class="stack"><span>C</span><span>File Handling</span><span>CRUD</span></div><a class="code-link" href="https://github.com/anujji04" target="_blank" rel="noopener">GitHub Profile ↗</a>
+        </article>
+
+        <article class="project-card glass reveal delay-1" data-category="python">
+          <div class="project-top"><span class="project-status">✓ COMPLETED</span><span>02</span></div>
+          <div class="project-art calculator-art"><div class="calc"><div class="display">12 × 8 = 96</div><div class="keys"><b>7</b><b>8</b><b>9</b><b>÷</b><b>4</b><b>5</b><b>6</b><b>×</b><b>1</b><b>2</b><b>3</b><b>−</b></div></div></div>
+          <div class="project-date">JUL '26</div><h3>Calculator Application</h3><p>GUI-based calculator supporting arithmetic and advanced mathematical operations, with an interactive interface built using Tkinter.</p><div class="stack"><span>Python</span><span>Tkinter</span><span>GUI</span></div><a class="code-link" href="https://github.com/anujji04" target="_blank" rel="noopener">GitHub Profile ↗</a>
+        </article>
+
+        <article class="project-card glass reveal delay-2" data-category="web">
+          <div class="project-top"><span class="project-status">✓ COMPLETED</span><span>03</span></div>
+          <div class="project-art web-art"><div class="browser"><div class="browser-bar"></div><div class="browser-body"><span></span><span></span><span></span><strong>AKS.</strong></div></div></div>
+          <div class="project-date">AUG '26</div><h3>Personal Portfolio Website</h3><p>Responsive portfolio website with a modern design, deployed using GitHub Pages to showcase projects, skills and achievements.</p><div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="code-link" href="https://github.com/anujji04" target="_blank" rel="noopener">GitHub Profile ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-kicker">// 04</div>
+      <h2>Education <span>& Journey</span></h2>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-date">2025 — 2029 · PRESENT</div><h3>Bachelor of Technology — Computer Science and Engineering</h3><h4>Lovely Professional University · Phagwara, Punjab</h4><p>Second Year · Building programming, problem-solving and software development skills.</p><div class="stack"><span>Programming</span><span>Computer Science</span><span>Software Development</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-date">2024</div><h3>Senior Secondary (PCM)</h3><h4>Sant Atulanand Convent School · Varanasi, U.P.</h4><p>CBSE Board · Percentage: 83%</p></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"></div><div class="timeline-date">2022</div><h3>Secondary School</h3><h4>Sant Atulanand Convent School · Varanasi, U.P.</h4><p>CBSE Board · Percentage: 89%</p></article>
+      </div>
+    </section>
+
+    <section id="certs" class="section">
+      <div class="section-kicker">// 05</div>
+      <h2>Certifi<span>cations</span></h2>
+      <p class="section-intro">Five certificates included from the portfolio source material, with full-size previews and dates.</p>
+      <div class="cert-grid">
+        <article class="cert-card glass reveal"><img src="assets/certificate-ai-bootcamp.png" alt="BlockseBlock OpenAI Artificial Intelligence bootcamp certificate"><div><span>AUG '2025</span><h3>Hands-on Bootcamp on Artificial Intelligence</h3><p>BlockseBlock × OpenAI</p><button data-cert="assets/certificate-ai-bootcamp.png">View Certificate ↗</button></div></article>
+        <article class="cert-card glass reveal delay-1"><img src="assets/certificate-time-management.png" alt="Tech Veda Effective Time Management certificate"><div><span>NOV '2025</span><h3>Effective Time Management</h3><p>Tech Veda · 5-hour MOOC</p><button data-cert="assets/certificate-time-management.png">View Certificate ↗</button></div></article>
+        <article class="cert-card glass reveal delay-2"><img src="assets/certificate-python.png" alt="Infosys Introduction to Python certificate"><div><span>FEB '2026</span><h3>Introduction to Python</h3><p>Infosys · Springboard</p><button data-cert="assets/certificate-python.png">View Certificate ↗</button></div></article>
+        <article class="cert-card glass reveal"><img src="assets/certificate-devops.png" alt="Infosys Mastering DevOps certificate"><div><span>MAR '2026</span><h3>Mastering DevOps</h3><p>Infosys · Springboard</p><button data-cert="assets/certificate-devops.png">View Certificate ↗</button></div></article>
+        <article class="cert-card glass reveal delay-1"><img src="assets/certificate-c-programming.png" alt="neoColab Computer Programming certificate"><div><span>MAY '2026</span><h3>Computer Programming</h3><p>neoColab · NIT Venture</p><button data-cert="assets/certificate-c-programming.png">View Certificate ↗</button></div></article>
+      </div>
+    </section>
+
+    <section id="terminal" class="section terminal-section">
+      <div class="section-kicker">// 06</div>
+      <h2>Interactive <span>Terminal</span></h2>
+      <p class="section-intro">Try some commands. Type <code>help</code> to get started.</p>
+      <div class="terminal glass reveal">
+        <div class="term-head"><div class="lights"><i></i><i></i><i></i></div><b>anuj@portfolio:~</b><span>PORTFOLIO TERMINAL v2.0</span></div>
+        <div id="terminal-output" class="term-output"><div>Portfolio Terminal v2.0 | Type <b>help</b> to begin.</div><div>anuj@portfolio:~$ <span class="muted">welcome</span></div></div>
+        <div class="term-input"><span>anuj@portfolio:~$</span><input id="terminal-input" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="Type a command..." /></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-kicker">// 07</div>
+      <h2>Let's Get <span>In Touch</span></h2>
+      <p class="section-intro">Open to internships, collaborations, learning opportunities, and interesting conversations.</p>
+      <div class="contact-grid">
+        <div class="contact-copy reveal"><h3>Let's Build Together</h3><p>Whether you want to discuss a project, an internship opportunity, or simply connect, I'd be happy to hear from you.</p><a class="email" href="mailto:rjakaj0203@gmail.com">rjakaj0203@gmail.com</a><div class="socials"><a href="https://github.com/anujji04" target="_blank" rel="noopener">GitHub ↗</a><a href="https://www.linkedin.com/in/anuj-kumar-singh-520062384" target="_blank" rel="noopener">LinkedIn ↗</a><a href="tel:+919219851282">+91 9219851282</a></div></div>
+        <form class="contact-form glass reveal delay-1" onsubmit="return sendMail(event)"><label>Full Name<input id="name" type="text" placeholder="Your name" required></label><label>Email Address<input id="email" type="email" placeholder="you@example.com" required></label><label>Message<textarea id="message" rows="5" placeholder="Your message..." required></textarea></label><button class="btn primary" type="submit">Send Message ↗</button></form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="brand">AKS<span>.</span></div><div>ASPIRING SOFTWARE ENGINEER · CSE · LPU</div><div>Designed & Built by Anuj Kumar Singh · © 2026</div></footer>
+
+  <div class="modal" id="cert-modal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-box"><button class="modal-close" aria-label="Close certificate">×</button><img id="modal-img" src="" alt="Certificate preview"><div class="modal-caption" id="modal-caption">Certificate Preview</div></div></div>
+  <div class="project-modal modal" id="project-modal" aria-hidden="true"><div class="modal-backdrop"></div><div class="modal-box project-detail-box"><button class="modal-close project-close" aria-label="Close project details">×</button><div id="project-detail"></div></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
